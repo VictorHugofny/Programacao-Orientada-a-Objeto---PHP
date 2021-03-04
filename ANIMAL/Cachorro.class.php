@@ -1,5 +1,7 @@
 <?php
-class Cachorro {
+include_once("Animal.class.php");
+
+class Cachorro extends Animal {
     public $nome; // atributo
     public $idade;
     public $raca;
